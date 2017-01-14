@@ -29,13 +29,20 @@
 }
 
 .temp2 .social-icons {
-    padding-top: 0px;
+    padding-top: 10px;
 }
 
-.temp2 .social-icons a {
-    color: #fff;
+.temp2 .social-icons span {
+    display: inline-block;
+    vertical-align: super;
+    font-weight: 100;
+    margin-right: 2px;
+}
+
+.temp2 .social-icons i {
+    color: #F20D5E;
     margin-right: 12px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .temp2 .customer-container {
@@ -56,12 +63,31 @@
     margin: auto;
 }
 
+.temp2 .google-container h5{
+    margin-bottom: 20px;
+}
+
+.temp2 .yes-btn {
+    background: #F20D5E;
+    border: #F20D5E;
+}
+
+.temp2 .no-btn {
+    background: #262626;
+    border: #262626;
+}
+
 .temp2 .yes-btn,
 .temp2 .no-btn {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
-    width: 225px;
-    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all .2s;
 }
 
 .temp2 p {
@@ -78,15 +104,16 @@
 
 .temp2 .main-footer {
     text-align: center;
-    background: gainsboro;
+    background: #262626;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .temp2 .connect-container {
     width: 100%;
     height: 20px;
     background: #262626;
-    color: #fff;
+    color: #F20D5E;
     text-transform: uppercase;
     font-weight: 200;
     font-size: .9em;
@@ -98,7 +125,7 @@
 }
 
 .temp2 ul a {
-    color: #262626;
+    color: #404040;
     font-size: 22px;
     margin: 0 10px;
 }
@@ -139,16 +166,22 @@
         transition: all .2s;
     }
 
+    .temp2 .yes-btn,
+    .temp2 .no-btn {
+        width: 125px;
+        height: 125px;
+    }
+
     .temp2 .main-footer {
         min-height: 150px;
     }
 
     .temp2 ul {
-        padding-top: 25px;
+        padding-top: 10px;
+        margin-bottom: 5px;
     }
 
     .temp2 .connect-container {
-        height: 30px;
         padding-top: 6px;
     }
 }
@@ -165,5 +198,15 @@
 
     .temp2 .content-container {
         margin-bottom: 6%;
+    }
+
+    .temp2 .main-footer {
+        padding-top: 2.5%;
+    }
+}
+
+@media(min-width:1440px){
+    .temp2 .main-footer {
+        min-height: 180px;
     }
 }

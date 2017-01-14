@@ -1,0 +1,169 @@
+.temp2 {
+    overflow-x: hidden;
+}
+
+.temp2 .main-header {
+    background: #262626;
+    max-width: 100%;
+    height: 80px;
+    line-height: 2.5;
+    padding-top: 11px;
+    margin-bottom: 40px;
+    transition: all .2s;
+}
+
+.temp2 .logo {
+    margin-top: 10px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.temp2 .logo-container {
+    height: 100%;
+    text-align: center;
+}
+
+.temp2 span {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.temp2 .social-icons {
+    padding-top: 0px;
+}
+
+.temp2 .social-icons a {
+    color: #fff;
+    margin-right: 12px;
+    font-size: 24px;
+}
+
+.temp2 .customer-container {
+    margin-bottom: 0px;
+    transition: all .2s;
+}
+
+.temp2 .apple-logo {
+    width: 120px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    transition: all .2s;
+}
+
+.temp2 .google-container {
+    background: none;
+    width: initial;
+    margin: auto;
+}
+
+.temp2 .yes-btn,
+.temp2 .no-btn {
+    display: block;
+    margin: 0 auto;
+    width: 225px;
+    margin-bottom: 10px;
+}
+
+.temp2 p {
+    color: gray;
+    font-weight: 200;
+}
+
+.temp2 .line-div {
+    width: 70%;
+    height: 1px;
+    background: lightgray;
+    margin: 50px auto 50px;
+}
+
+.temp2 .main-footer {
+    text-align: center;
+    background: gainsboro;
+    padding-bottom: 10px;
+}
+
+.temp2 .connect-container {
+    width: 100%;
+    height: 20px;
+    background: #262626;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .9em;
+    padding-top: 2px;
+}
+
+.temp2 ul {
+    padding-top: 10px;
+}
+
+.temp2 ul a {
+    color: #262626;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.temp2 .support-container a {
+    color: #fff;
+}
+
+
+@media(min-width:768px){
+
+    .temp2 .main-header {
+        margin-bottom: 50px;
+    }
+
+    .temp2 .apple-logo {
+        width: 135px;
+    }
+
+    .temp2 .google-container {
+        background: #f5f5f5;
+        width: 425px;
+        margin: 30px auto 70px;
+        padding-top: 30px;
+        box-shadow: 3px 4px 10px rgba(0,0,0,.2);
+    }
+
+    .temp2 .customer-container {
+        margin-bottom: 15px;
+    }
+
+    .temp2 .content-container {
+        border: 1px solid gainsboro;
+        border-radius: 3px;
+        padding-top: 50px;
+        width: 650px;
+        margin-bottom: 50px;
+        transition: all .2s;
+    }
+
+    .temp2 .main-footer {
+        min-height: 150px;
+    }
+
+    .temp2 ul {
+        padding-top: 25px;
+    }
+
+    .temp2 .connect-container {
+        height: 30px;
+        padding-top: 6px;
+    }
+}
+
+@media (min-width:992px){
+
+    .temp2 .logo-container {
+        text-align: left;
+    }
+
+    .temp2 .main-header {
+        margin-bottom: 6%;
+    }
+
+    .temp2 .content-container {
+        margin-bottom: 6%;
+    }
+}

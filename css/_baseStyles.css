@@ -1,8 +1,10 @@
-h5 {
-    font-size: 16px;
-    color: gray;
-    font-weight: 100;
-    letter-spacing: 1px;
+a {
+    transition: all .15s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: .6;
 }
 
 h3 {
@@ -15,10 +17,26 @@ h4 {
     font-weight: 200;
 }
 
+h5 {
+    font-size: 16px;
+    color: gray;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
 .btn {
     padding: 10px 12px;
 }
 
 .margin-bottom-sm {
     margin-bottom: 30px;
+}
+
+.create-account {
+    transition: all .2s ease;
+}
+
+.create-account:hover {
+    cursor: pointer;
+    opacity: .6;
 }

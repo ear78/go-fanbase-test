@@ -45,6 +45,11 @@
     font-size: 22px;
 }
 
+.temp2 .social-icons:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
 .temp2 .customer-container {
     margin-bottom: 0px;
     transition: all .2s;
@@ -87,7 +92,14 @@
     border-radius: 50%;
     margin-right: 5px;
     margin-left: 5px;
-    transition: all .2s;
+    transition: all .2s ease;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+}
+
+.temp2 .yes-btn:hover,
+.temp2 .no-btn:hover {
+    background: #fff;
+    color: #262626;
 }
 
 .temp2 p {
@@ -172,10 +184,6 @@
         height: 125px;
     }
 
-    .temp2 .main-footer {
-        min-height: 150px;
-    }
-
     .temp2 ul {
         padding-top: 10px;
         margin-bottom: 5px;
@@ -183,6 +191,19 @@
 
     .temp2 .connect-container {
         padding-top: 6px;
+    }
+
+    .temp2 .support-container {
+        padding-top: 18px;
+    }
+
+    .temp2 .rights {
+        color: #fff;
+        padding-top: 18px;
+    }
+
+    .temp2 .main-footer {
+        padding-top: 25px;
     }
 }
 
@@ -206,7 +227,7 @@
 }
 
 @media(min-width:1440px){
-    .temp2 .main-footer {
+    /*.temp2 .main-footer {
         min-height: 180px;
-    }
+    }*/
 }
